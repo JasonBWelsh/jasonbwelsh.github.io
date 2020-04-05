@@ -1,26 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react';
+import Pages from './pages';
 import './App.css';
+import axios from 'axios';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  const [user, setUser] = useState(null);
+
+  useEffect(() => {
+    const fetchUserData = async () => {
+      const result = await axios(
+        'https://gitconnected.com/v1/portfolio/jasonbwelsh'
+      );
+
+      console.log('DRD - log result:::', result);
+      setUser(result.data);
+    };
+
+    fetchUserData();
+  }, []);
+
+  if (!user) {
+    return <div></div>;
+  }
+
+  return <Pages user={user} />;
 }
 
 export default App;
