@@ -14,12 +14,24 @@ export const Header = styled.div`
   @media (max-width: 640px) {
     flex-direction: column;
   }
+
+  .header-title {
+    @media (max-width: 768px) {
+      text-align: center;
+      margin-bottom: 1.5rem;
+    }
+  }
 `;
 
 export const Image = styled.img`
   width: 200px;
-  margin-right: 1rem;
-  border-radius: 2px;
+  margin: 0 auto;
+  // border-radius: 3px;
+  // border: 1px solid #000;
+
+  @media (min-width: 768px) {
+    margin: 0 1rem 0 0;
+  }
 `;
 
 export const ViewResumeLink = styled.a`
@@ -29,11 +41,12 @@ export const ViewResumeLink = styled.a`
   font-weight: bold;
   align-items: center;
   margin-top: 1rem;
-  border: 2px solid #2ecc40;
-  background-color: rgba(46, 204, 64, 0.3);
+  max-width: 166px;
+  border: 2px solid #72729c;
+  background-color: #42425a;
   transition: background-color 250ms ease;
   &:hover {
-    background-color: #2ecc40;
+    background-color: #72729c;
   }
   svg {
     fill: white;

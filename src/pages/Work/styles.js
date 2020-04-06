@@ -21,11 +21,17 @@ export const WorkImageGrid = styled.div`
   flex-wrap: wrap;
   justify-content: space-between;
 
+  @media (min-width: 768px) {
+    justify-content: flex-start;
+  }
+
   .work-grid__image {
     height: 100px;
     width: 100px;
     margin-bottom: 10px;
+
     @media (min-width: 768px) {
+      margin-right: 20px;
       height: 125px;
       width: 125px;
     }

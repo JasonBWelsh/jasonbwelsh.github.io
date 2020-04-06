@@ -10,10 +10,20 @@ const UserHeader = ({ user }) => {
   return (
     <HeaderContainer isHome={location.pathname === '/'}>
       <Header>
-        <Image src={user.basics.picture} />
+        <Image
+          className="img-border"
+          src={user.basics.picture}
+          alt="photo of Jason Welsh"
+        />
         <div>
-          <h2>{user.basics.name}</h2>
-          <h4>
+          <h2 className="header-title">{user.basics.name}</h2>
+          <h4>{user.basics.label}</h4>
+          <p>Coding in {user.basics.region}</p>
+          {/* <p>
+            {user.basics.yearsOfExperience} years of experience as a developer
+          </p> */}
+          <p>{user.basics.headline}</p>
+          {/* <h4>
             <a
               href={`https://gitconnected.com/${user.basics.username}`}
               target="_blank"
@@ -21,23 +31,7 @@ const UserHeader = ({ user }) => {
             >
               @{user.basics.username}
             </a>
-          </h4>
-          <p>{user.basics.label}</p>
-          <p>Coding in {user.basics.region}</p>
-          <p>
-            {user.basics.yearsOfExperience} years of experience as a developer
-          </p>
-          <p>{user.basics.headline}</p>
-          <p>
-            Blog:{' '}
-            <a
-              href={user.basics.blog}
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              {user.basics.blog}
-            </a>
-          </p>
+          </h4> */}
         </div>
       </Header>
       <div>
