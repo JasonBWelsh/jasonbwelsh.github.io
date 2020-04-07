@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/jasonbwelsh.github.io/static/css/main.10a82623.chunk.css",
+    "main.js": "/jasonbwelsh.github.io/static/js/main.40137234.chunk.js",
+    "main.js.map": "/jasonbwelsh.github.io/static/js/main.40137234.chunk.js.map",
+    "runtime-main.js": "/jasonbwelsh.github.io/static/js/runtime-main.5a5fb1cc.js",
+    "runtime-main.js.map": "/jasonbwelsh.github.io/static/js/runtime-main.5a5fb1cc.js.map",
+    "static/js/2.9b9eda63.chunk.js": "/jasonbwelsh.github.io/static/js/2.9b9eda63.chunk.js",
+    "static/js/2.9b9eda63.chunk.js.map": "/jasonbwelsh.github.io/static/js/2.9b9eda63.chunk.js.map",
+    "index.html": "/jasonbwelsh.github.io/index.html",
+    "precache-manifest.283d96d1bfaf61434e12834fdf6cdbb9.js": "/jasonbwelsh.github.io/precache-manifest.283d96d1bfaf61434e12834fdf6cdbb9.js",
+    "service-worker.js": "/jasonbwelsh.github.io/service-worker.js",
+    "static/css/main.10a82623.chunk.css.map": "/jasonbwelsh.github.io/static/css/main.10a82623.chunk.css.map",
+    "static/js/2.9b9eda63.chunk.js.LICENSE.txt": "/jasonbwelsh.github.io/static/js/2.9b9eda63.chunk.js.LICENSE.txt",
+    "static/media/ashleyMadisonLogo.jpg": "/jasonbwelsh.github.io/static/media/ashleyMadisonLogo.bc732b22.jpg",
+    "static/media/cvs-logo.jpeg": "/jasonbwelsh.github.io/static/media/cvs-logo.1ce7be5e.jpeg",
+    "static/media/peoples.jpg": "/jasonbwelsh.github.io/static/media/peoples.ccd86ede.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5a5fb1cc.js",
+    "static/js/2.9b9eda63.chunk.js",
+    "static/css/main.10a82623.chunk.css",
+    "static/js/main.40137234.chunk.js"
+  ]
+}
