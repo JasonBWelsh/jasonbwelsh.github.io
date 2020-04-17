@@ -18,8 +18,8 @@ const Contact = ({ user }) => {
             </a>
           </span>
           or reach me via one of the provided links:
-          <ProfileLogoContainer />
         </p>
+        <ProfileLogoContainer />
       </ContactContainer>
     </Layout>
   );
