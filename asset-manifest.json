@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fadae47b.chunk.css",
+    "main.js": "/static/js/main.f448fac6.chunk.js",
+    "main.js.map": "/static/js/main.f448fac6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.3ec443b7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.3ec443b7.js.map",
+    "static/js/2.87d575b3.chunk.js": "/static/js/2.87d575b3.chunk.js",
+    "static/js/2.87d575b3.chunk.js.map": "/static/js/2.87d575b3.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1216358a789e88817a9a6e1d0e3b3ee9.js": "/precache-manifest.1216358a789e88817a9a6e1d0e3b3ee9.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.fadae47b.chunk.css.map": "/static/css/main.fadae47b.chunk.css.map",
+    "static/js/2.87d575b3.chunk.js.LICENSE.txt": "/static/js/2.87d575b3.chunk.js.LICENSE.txt",
+    "static/media/ashleyMadisonLogo.jpg": "/static/media/ashleyMadisonLogo.bc732b22.jpg",
+    "static/media/cvs-logo.jpeg": "/static/media/cvs-logo.1ce7be5e.jpeg",
+    "static/media/peoples.jpg": "/static/media/peoples.ccd86ede.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3ec443b7.js",
+    "static/js/2.87d575b3.chunk.js",
+    "static/css/main.fadae47b.chunk.css",
+    "static/js/main.f448fac6.chunk.js"
+  ]
+}
