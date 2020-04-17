@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../../components/Layout';
 import { SectionTitle, Paragraph, Pill } from '../../styles';
 import { ProfileLink } from './styles';
+import ProfileLogoContainer from '../../components/ProfileLogoContainer';
 
 const Me = ({ user }) => {
   return (
@@ -13,14 +14,14 @@ const Me = ({ user }) => {
       <div>
         <SectionTitle>Skills</SectionTitle>
         <div>
-          {user.skills.map(skill => (
+          {user.skills.map((skill) => (
             <Pill key={skill.name}>{skill.name}</Pill>
           ))}
         </div>
       </div>
       <div>
         <SectionTitle>Profiles</SectionTitle>
-        <ul>
+        {/* <ul>
           {user.basics.profiles.map((profile, i) => (
             <ProfileLink key={profile.network}>
               {i !== 0 && ' | '}
@@ -29,7 +30,8 @@ const Me = ({ user }) => {
               </a>
             </ProfileLink>
           ))}
-        </ul>
+        </ul> */}
+        <ProfileLogoContainer />
       </div>
     </Layout>
   );

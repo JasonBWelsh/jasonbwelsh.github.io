@@ -21,6 +21,7 @@ export const NavWrapper = styled.div`
   top: 0;
   left: 0;
   z-index: 1;
+  background: #1e2c30;
 `;
 
 export const NavLink = styled(Link)`

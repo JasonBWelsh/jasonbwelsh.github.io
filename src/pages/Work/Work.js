@@ -14,7 +14,7 @@ const Work = ({ user }) => {
           {user.work.map((work, i) => (
             <WorkItem key={i}>
               <WorkTitle>{work.position}</WorkTitle>
-              <div>
+              <div className="job-info-heading">
                 <JobTitle>{work.company}</JobTitle> <span>{work.location}</span>
                 <span> &sdot; </span>
                 <span>

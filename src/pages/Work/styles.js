@@ -5,6 +5,11 @@ export const WorkItem = styled.li`
   margin-top: 1rem;
   padding-bottom: 1rem;
   border-bottom: 1px solid ${white};
+
+  .job-info-heading {
+    margin: 0.5rem 0;
+    font-weight: bold;
+  }
 `;
 
 export const WorkTitle = styled.h4`

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import {
   SideNavItems,
-  SideNavLink
+  SideNavLink,
 } from 'carbon-components-react/lib/components/UIShell';
 
 import { StyledSideNav } from './styles';
@@ -10,7 +10,8 @@ import { StyledSideNav } from './styles';
 const items = [
   { name: 'Me', path: '/' },
   { name: 'Work', path: '/work' },
-  { name: 'Projects', path: '/projects' }
+  // { name: 'Projects', path: '/projects' },
+  { name: 'Contact', path: '/contact' },
 ];
 
 const Sidebar = () => {
@@ -24,7 +25,7 @@ const Sidebar = () => {
       aria-label="Side navigation"
     >
       <SideNavItems>
-        {items.map(i => (
+        {items.map((i) => (
           <SideNavLink
             isActive={
               location.pathname === '/' && i.path === '/'

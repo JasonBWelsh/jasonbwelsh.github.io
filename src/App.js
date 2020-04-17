@@ -20,7 +20,7 @@ function App() {
   }, []);
 
   if (!user) {
-    return <div></div>;
+    return <div>Loading...</div>;
   }
 
   return <Pages user={user} />;

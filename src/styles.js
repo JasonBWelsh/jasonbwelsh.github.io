@@ -13,8 +13,9 @@ export const Pill = styled.span`
   margin-right: 0.75rem;
   margin-bottom: 0.75rem;
   padding: 0.5rem 1rem;
-  background-color: #42425a;
-  border: 1px solid #72729c;
-  border-radius: 2px;
+  // background-color: #42425a;
+  // border: 1px solid #72729c;
+  border: 1px solid #fff;
+  border-radius: 3px;
   font-weight: bold;
 `;

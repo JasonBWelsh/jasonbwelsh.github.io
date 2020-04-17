@@ -11,14 +11,14 @@ const UserHeader = ({ user }) => {
     <HeaderContainer isHome={location.pathname === '/'}>
       <Header>
         <Image
-          className="img-border"
+          className="img-border round-img"
           src={user.basics.picture}
           alt="photo of Jason Welsh"
         />
         <div>
           <h2 className="header-title">{user.basics.name}</h2>
-          <h4>{user.basics.label}</h4>
-          <p>Coding in {user.basics.region}</p>
+          <h4 className="header-title">{user.basics.label}</h4>
+          {/* <p>Coding in {user.basics.region}</p> */}
           {/* <p>
             {user.basics.yearsOfExperience} years of experience as a developer
           </p> */}

@@ -16,6 +16,9 @@ export const Header = styled.div`
   }
 
   .header-title {
+    text-align: center;
+    margin-bottom: 1.5rem;
+
     @media (max-width: 768px) {
       text-align: center;
       margin-bottom: 1.5rem;
@@ -25,7 +28,7 @@ export const Header = styled.div`
 
 export const Image = styled.img`
   width: 200px;
-  margin: 0 auto;
+  margin: 0 auto 1.5rem;
   // border-radius: 3px;
   // border: 1px solid #000;
 

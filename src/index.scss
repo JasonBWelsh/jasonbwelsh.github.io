@@ -18,7 +18,7 @@ code {
 }
 
 .bx--content {
-  background-color: 293327;
+  background-color: #1e2c30;
 }
 
 a {
@@ -31,7 +31,8 @@ a {
 
 a.bx--side-nav__link--current,
 a.bx--side-nav__link--current > span.bx--side-nav__link-text {
-  background-color: $ui-01;
+  // background-color: $ui-01;
+  background-color: #1e2c30;
   color: $text-04;
 }
 
@@ -51,4 +52,8 @@ a.bx--side-nav__link > .bx--side-nav__link-text,
 .img-border {
   border-radius: 3px;
   border: 1px solid $ui-01;
+}
+
+.round-img {
+  border-radius: 50%;
 }
